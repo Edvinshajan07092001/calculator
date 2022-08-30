@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+
+    <section>
+        <div class="calc">
+
+            <div class="display">
+                <input id="result" type="text" placeholder="0" >
+            </div>
+            <div class="buttons">
+
+                <button onclick="displayNum(7)">7</button> 
+                <button onclick="displayNum(8)">8</button>
+                <button onclick="displayNum(9)">9</button>
+                <button onclick="displayNum('/')">/</button>
+                <button onclick="displayNum(4)">4</button>
+                <button onclick="displayNum(5)">5</button>
+                <button onclick="displayNum(6)">6</button>
+                <button onclick="displayNum('*')">*</button>
+                <button onclick="displayNum(1)">1</button>
+                <button onclick="displayNum(2)">2</button>
+                <button onclick="displayNum(3)">3</button>
+                <button onclick="displayNum('-')">-</button>
+                <button onclick="displayNum(0)">0</button>
+                <button onclick="displayNum('.')">.</button>
+                <button onclick="displayNum('+')">+</button>
+                <button onclick="evalexpr()" class="eql">=</button>
+                <button onclick="allclear()">AC</button>
+                <button onclick="backspace()">DEL</button>
+            
+
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+<script src="./cal.js"></script>
+</html>
